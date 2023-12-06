@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+.nav {
+    background-color: rgb(65, 65, 226);
+    color: white;
+    height: 55px;
+    font-size: 30px;
+}
+.linknav {
+    text-decoration: none;
+    color: white;
+
+}
+.title-pag {
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.btn-form {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: #4141E2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 65px;
+}
+
+.bt {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: #4141E2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+    
+}
+.list-item {
+    padding-left: 0;
+   
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.nome {
+    margin-left: 10px;
+}
+.item {
+    font-size: 18px;
+    list-style: none;
+    height: 40px;
+    border: 1px dashed #ccc;
+    padding-top: 5px;
+    margin-right: 20px;
+}
+.fa-trash, .fa-pen-to-square {
+    cursor: pointer;
+    float: right;
+    margin: 5px;
+    
+}
+.fa-trash {
+    color: red;
+}
+.fa-pen-to-square {
+    color: green;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

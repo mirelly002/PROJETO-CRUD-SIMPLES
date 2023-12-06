@@ -1,0 +1,14 @@
+
+{% extends 'base.html' %}
+
+{% block title %} Item {% endblock%}
+
+{% block content %} 
+    
+    <div class="container">
+        <h1 class="title-pag">{{item.item}}</h1>
+        <p>Quantidade: {{item.quantidade}}</p>
+
+    </div>
+    
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'base.html'%}
+{% block content %} 
+<h1 class="title-pag">Lista de itens</h1>
+
+
+
+<form action="add_item/">
+    <input class="bt" type="submit" value="Adicionar item">
+</form>
+
+<ul class="list-itens">
+    {% for item in itens %}
+    <li class="item">
+        <span class="nome"><a class="link" href="itens/{{item.id}}/">{{item.item}}</a></span>
+        <span><a href="deleteitem/{{item.id}}/"><i class="fa-solid fa-trash"></i></a></span>
+        <span><a href="updateitem/{{item.id}}/"><i class="fa-solid fa-pen-to-square"></i></a></span>
+    </li>
+    
+    {% endfor %}
+</ul>
+{% endblock %} 
